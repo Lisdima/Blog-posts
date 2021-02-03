@@ -1,0 +1,96 @@
+
+@font-face
+    font-family: "Gilroy bold"
+    src: url("../fonts/gilroy-bold.ttf")
+
+@font-face
+    font-family: "Gilroy regular"
+    src: url("../fonts/gilroy-regular.ttf")
+
+body
+    margin: 0
+
+.container
+    max-width: 1170px
+    width: 100%
+    margin: 0 auto
+
+.header
+    width: 600px
+    font-family: "Gilroy regular"
+    margin: 88px auto 71px
+    text-align: center
+    .header-title
+        font-size: 32px
+    .header-subtitle
+        margin-top: 30px
+        font-size: 18px
+.card-family
+    display: flex
+    width: 100%
+    img
+        display: block
+    .card-block
+        width: 65.81196581196581%
+        background-color: #231F20
+        font-family: "Gilroy regular"
+        color: #ffffff
+        .card-block__info
+            width: 72%
+            padding: 63px 200px 49px 78px
+            .card__author
+                font-size: 14px
+                margin-bottom: 27px
+            .card__text
+                font-size: 48px
+                margin-bottom: 60px
+            .card__read-more
+                font-size: 18px
+
+.information
+    display: flex
+    justify-content: space-between
+    width: 100%
+    margin: 40px 0 50px
+    .block
+        width: 48.71794871794872%
+        transition: box-shadow 0.3s linear
+        .block-info
+            font-family: "Gilroy regular"
+            color: #000000
+            padding: 48px 48px 50px
+            .block-title
+                font-family: "Gilroy bold"
+                font-size: 24px
+                margin-bottom: 16px
+            .block-text
+                font-size: 18px
+                margin-bottom: 16px
+            .block__read-more
+                font-size: 14px
+
+    .block:hover
+        box-shadow: 10px 10px 15px rgba(15, 13, 13, 0.384)
+
+.show-more
+    position: relative
+    left: 50%
+    transform: translate(-50%, 0)
+    font-size: 18px
+    margin-bottom: 93px
+    padding: 15px 45px
+    color: #F7941E
+    background-color: #ffffff
+    border: 1px solid #F7941E
+    border-radius: 5px
+
+.show-more:hover
+    cursor: pointer
+
+.show-more:active
+    border: 2px solid #fa7900
+    color: #fa7900
+    outline: none
+
+.show-more:focus
+    outline: none
